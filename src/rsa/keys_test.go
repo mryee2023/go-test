@@ -156,7 +156,7 @@ func TestSHA256(t *testing.T) {
 		s3 := sha1.New()
 		s3.Write([]byte(s2))
 		fmt.Println("SHA1 ", fmt.Sprintf("%x", s3.Sum(nil)))
-		fmt.Println("_________")
+		fmt.Println("____________")
 	}
 
 }
