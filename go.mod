@@ -2,7 +2,10 @@ module github.com/mryee2023/go-test
 
 go 1.20
 
-require github.com/stretchr/testify v1.8.4
+require (
+	github.com/showa-93/go-mask v0.6.0
+	github.com/stretchr/testify v1.8.4
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
